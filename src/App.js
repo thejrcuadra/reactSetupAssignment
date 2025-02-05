@@ -1,11 +1,11 @@
- import DetailedOrder from "./modules/DetailedOrder";
- import Orders from "./modules/Orders";
- import RestaurantMenu from "./modules/RestaurantMenu";
- import {Routes, Route} from 'react-router-dom';
- import { Layout, Image} from 'antd';
- import SideMenu from "./components/SideMenu";
+import DetailedOrder from "./modules/DetailedOrder";
+import Orders from "./modules/Orders";
+import RestaurantMenu from "./modules/RestaurantMenu";
+import {Routes, Route} from 'react-router-dom';
+import { Layout, Image} from 'antd';
+import SideMenu from "./components/SideMenu";
 
- const {Sider, Content, Footer} = Layout;
+const {Sider, Content, Footer} = Layout;
 
 function App() {
   return (
