@@ -2,6 +2,7 @@
  import Orders from "./modules/Orders";
  import {Routes, Route} from 'react-router-dom';
  import { Layout, Image} from 'antd';
+ import SideMenu from "./components/SideMenu";
 
  const {Sider, Content, Footer} = Layout;
 
@@ -10,6 +11,7 @@ function App() {
       <Layout>
         <Sider style={{height: "100vh", backgroundColor: "white"}}>
           <Image src="https://logodix.com/logo/431265.png" preview={false}/>
+          <SideMenu />
         </Sider>
         <Layout>
           <Content>
